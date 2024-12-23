@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-  max-width: 300px;
+  max-width: 308px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
   border-radius: 16px;
@@ -65,4 +65,13 @@ body {
 
 .card__profile-image {
   width: 30px;
+}
+
+@media (min-width: 768px) {
+  * {
+    font-size: 16px;
+  }
+  .card {
+    max-width: 350px;
+  }
 }
